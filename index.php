@@ -17,8 +17,8 @@
     </div>
 
     <nav class="nav-links">
-      <a href="index.html">Shop</a>
-      <a href="sale/sell.html">Sell</a>
+      <a href="index.php">Shop</a>
+      <a href="sale/sell.php">Sell</a>
     </nav>
 
     <div class="search-bar">
@@ -30,14 +30,14 @@
 
 
     <div class="icon-links">
-    <a href="cart.html"> <span title="Cart"> 🛒</span></a>
+    <a href="cart.php"> <span title="Cart"> 🛒</span></a>
     </div>
   </header>
   <nav class="category-menu">
     <section class="categories-scroll">
-      <a class="category" href="Category/mensware/index.html">Menswear</a>
-      <a class="category" href="Category/kidsware/index.html">Kidswear</a>
-      <a class="category" href="Category/womensware/index.html">Womensware</a>
+      <a class="category" href="Category/mensware/index.php">Menswear</a>
+      <a class="category" href="Category/kidsware/index.php">Kidswear</a>
+      <a class="category" href="Category/womensware/index.php">Womensware</a>
     </section>
 
   </nav>
@@ -46,7 +46,7 @@
     <div class="gender-block men">
       <div class="overlay">
         <h2>Men</h2>
-        <a class="category" href="Category/mensware/index.html">
+        <a class="category" href="Category/mensware/index.php">
           <button>Shop now</button>
         </a>
     </div>
@@ -55,7 +55,7 @@
     <div class="gender-block kids">
       <div class="overlay">
         <h2>Kids</h2>
-        <a class="category" href="Category/kidsware/index.html">
+        <a class="category" href="Category/kidsware/index.php">
           <button>Shop now</button>
         </a>
       </div>
@@ -64,7 +64,7 @@
     <div class="gender-block women">
       <div class="overlay">
         <h2>Women</h2>
-        <a class="category" href="Category/womensware/index.html">
+        <a class="category" href="Category/womensware/index.php">
           <button>Shop now</button>
         </a>
 
@@ -135,7 +135,7 @@
       <h3>Subscribe</h3>
       <p>Trade-in offers, repair tips, events, original stories and more.</p>
       
-      <a href="log.html"><button>Sign Me Up</button></a>
+      <a href="log.php"><button>Sign Me Up</button></a>
       <p class="disclaimer">
         By opting in, you agree to subscribe to our newsletter and stay updated on news and offers about our brand.
         Don’t worry, if you change your mind, you can unsubscribe at any time.
@@ -146,8 +146,8 @@
 
     <div class="footer-section help">
       <h3>Need Help?</h3>
-      <a href="FAQ.html">FAQs</a>
-      <a href="Contact.html">Contact Us</a>
+      <a href="FAQ.php">FAQs</a>
+      <a href="Contact.php">Contact Us</a>
       <a href="#">Returns & Exchanges</a>
       <a href="#">Product Care & Repair</a>
       <a href="#">Adjust Consent</a>
@@ -155,7 +155,7 @@
 
     <div class="footer-section info">
       <h3>More Info</h3>
-      <a href="events.html">Events</a>
+      <a href="events.php">Events</a>
       <a href="#">Privacy Policy</a>
 
     </div>

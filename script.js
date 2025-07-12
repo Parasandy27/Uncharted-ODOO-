@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (signInBtn) {
     signInBtn.addEventListener("click", function () {
       // Redirect to login page
-      window.location.href = "log.html";
+      window.location.href = "log.php";
     });
   }
 });

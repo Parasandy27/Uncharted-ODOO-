@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>L Clothes - Swap Dressing</title>
+  <title>S Size Clothes - Swap Dressing</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -125,38 +125,39 @@
   </style>
 </head>
 <body>
-
+    
+  
   <section>
-    <h2>Explore L Clothes</h2>
+    <h2>Explore S Size Clothes</h2>
     <p class="description">
-      Browse our curated collection of M-size fashion items shared by our conscious community. Comfortable, stylish, and sustainably sourced.
+      A stylish and sustainable collection of small-size fashion items ready to be swapped or shared with the community.
     </p>
 
     <div class="card-container">
       <div class="card">
-        <img src=https://images.pexels.com/photos/5709905/pexels-photo-5709905.jpeg alt="L Sweater" />
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/27443692/2024/12/6/2148e1e4-af7f-45e9-a6c2-501c743209471733477391151-Azira-Checked-Cotton-Empire-Puff-Sleeve-Layered-Fit--Flare-M-1.jpg" alt="S Dress" />
         <div class="card-content">
-          <h3>Knitted Sweater (L)</h3>
-          <p>Flowy and breathable fabric. Perfect for casual days or brunch dates.</p>
-          <a href="L1.php"> <button>View Item</button> </a>
+          <h3>Summer Dress (S)</h3>
+          <p>Lightweight and breathable for warm days. Great for beach or city strolls.</p>
+          <a href="s1.php"><button>View Item</button></a>
         </div>
       </div>
 
       <div class="card">
-        <img src=https://images.pexels.com/photos/1059054/pexels-photo-1059054.jpeg alt="L Dress" />
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/363037076/XZ/OL/US/40445960/5290288fc677dcc2c7098f0f030c5e65-500x500.jpg" alt="S Jacket" />
         <div class="card-content">
-          <h3>Pink Dress (L)</h3>
-          <p>Oversized denim with vintage wash and great warmth for fall outings.</p>
-          <a href="L2.php"> <button>View Item</button> </a>
+          <h3>Leather Jacket (S)</h3>
+          <p>Fitted cut, perfect for an edgy yet elegant look in cooler weather.</p>
+           <a href="s2.php"><button>View Item</button></a>
         </div>
       </div>
 
       <div class="card">
-        <img src=https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg alt="L T-shirt" />
+        <img src="https://myraymond.com/cdn/shop/files/CMSS30011-B3-1.jpg?v=1725608561" alt="S Shirt" />
         <div class="card-content">
-          <h3>Black T- Shirt(L)</h3>
-          <p>Bold statement print on soft cotton. Express yourself in comfort.</p>
-         <a href="L3.php"> <button>View Item</button> </a>
+          <h3>Cotton Shirt (S)</h3>
+          <p>Smart-casual style, ideal for office wear or meetups. Soft cotton feel.</p>
+           <a href="s3.php"><button>View Item</button></a>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>L Clothes - Swap Dressing</title>
+  <title>M Clothes - Swap Dressing</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -127,36 +127,36 @@
 <body>
 
   <section>
-    <h2>Explore L Clothes</h2>
+    <h2>Explore M Clothes</h2>
     <p class="description">
       Browse our curated collection of M-size fashion items shared by our conscious community. Comfortable, stylish, and sustainably sourced.
     </p>
 
     <div class="card-container">
       <div class="card">
-        <img src=https://images.pexels.com/photos/5709905/pexels-photo-5709905.jpeg alt="L Sweater" />
+        <img src=https://images.pexels.com/photos/20483893/pexels-photo-20483893.jpeg alt="M Dress" />
         <div class="card-content">
-          <h3>Knitted Sweater (L)</h3>
+          <h3>Floral Maxi Dress (M)</h3>
           <p>Flowy and breathable fabric. Perfect for casual days or brunch dates.</p>
-          <a href="L1.php"> <button>View Item</button> </a>
+          <a href="M1.php"> <button>View Item</button> </a>
         </div>
       </div>
 
       <div class="card">
-        <img src=https://images.pexels.com/photos/1059054/pexels-photo-1059054.jpeg alt="L Dress" />
+        <img src=https://images.pexels.com/photos/2446655/pexels-photo-2446655.jpeg alt="M Jacket" />
         <div class="card-content">
-          <h3>Pink Dress (L)</h3>
+          <h3>Denim Jacket (M)</h3>
           <p>Oversized denim with vintage wash and great warmth for fall outings.</p>
-          <a href="L2.php"> <button>View Item</button> </a>
+          <a href="M2.php"> <button>View Item</button> </a>
         </div>
       </div>
 
       <div class="card">
-        <img src=https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg alt="L T-shirt" />
+        <img src=https://images.pexels.com/photos/3251406/pexels-photo-3251406.jpeg alt="M T-shirt" />
         <div class="card-content">
-          <h3>Black T- Shirt(L)</h3>
+          <h3>Graphic Hoodie (M)</h3>
           <p>Bold statement print on soft cotton. Express yourself in comfort.</p>
-         <a href="L3.php"> <button>View Item</button> </a>
+         <a href="M3.php"> <button>View Item</button> </a>
         </div>
       </div>
     </div>
