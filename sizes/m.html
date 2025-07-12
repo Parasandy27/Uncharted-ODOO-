@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Size M - Clothing</title>
+  <link rel="stylesheet" href="/main page/styles.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="logo"></div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search in size M...">
+      <button onclick="searchProducts()">🔍</button>
+    </div>
+  </div>
+
+  <div class="section-title">Clothing - Size M</div>
+
+  <div class="products" id="productContainer">
+    <div class="product" data-category="Tops">M - T-Shirt (Men)</div>
+    <div class="product" data-category="Women">M - Dress (Women)</div>
+    <div class="product" data-category="Kids">M - Hoodie (Kids)</div>
+  </div>
+
+  <script>
+    function searchProducts() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const products = document.querySelectorAll('.product');
+      products.forEach(product => {
+        product.style.display = product.textContent.toLowerCase().includes(query) ? 'flex' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>

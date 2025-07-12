@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S Size Clothes - Swap Dressing</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2a5d73;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    section {
+      padding: 40px 20px;
+      background-color: #f1f7fa;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 32px;
+      color: #2a5d73;
+      margin-bottom: 20px;
+    }
+
+    section p.description {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+      color: #2a5d73;
+      font-size: 18px;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .card-content button {
+      margin-top: 15px;
+      background: #2bc6ff;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .card-content button:hover {
+      background-color: #239ccf;
+    }
+
+    footer {
+      background-color: #2a5d73;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1, section h2 {
+        font-size: 24px;
+      }
+
+      .card-content h3 {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+    
+  
+  <section>
+    <h2>Explore S Size Clothes</h2>
+    <p class="description">
+      A stylish and sustainable collection of small-size fashion items ready to be swapped or shared with the community.
+    </p>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/27443692/2024/12/6/2148e1e4-af7f-45e9-a6c2-501c743209471733477391151-Azira-Checked-Cotton-Empire-Puff-Sleeve-Layered-Fit--Flare-M-1.jpg" alt="S Dress" />
+        <div class="card-content">
+          <h3>Summer Dress (S)</h3>
+          <p>Lightweight and breathable for warm days. Great for beach or city strolls.</p>
+          <a href="s1.html"><button>View Item</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/363037076/XZ/OL/US/40445960/5290288fc677dcc2c7098f0f030c5e65-500x500.jpg" alt="S Jacket" />
+        <div class="card-content">
+          <h3>Leather Jacket (S)</h3>
+          <p>Fitted cut, perfect for an edgy yet elegant look in cooler weather.</p>
+           <a href="s2.html"><button>View Item</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://myraymond.com/cdn/shop/files/CMSS30011-B3-1.jpg?v=1725608561" alt="S Shirt" />
+        <div class="card-content">
+          <h3>Cotton Shirt (S)</h3>
+          <p>Smart-casual style, ideal for office wear or meetups. Soft cotton feel.</p>
+           <a href="s3.html"><button>View Item</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
